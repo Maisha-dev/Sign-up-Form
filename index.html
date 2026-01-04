@@ -8,55 +8,69 @@
   </head>
   <body>
     <section>
+      <div class="image-container">
       <img
+      class="background-image"
         src="halie-west-25xggax4bSA-unsplash.jpg"
         alt="leave photo"
-        width="232"
-        height="349"
+        width="232px"
+        height="349px"
       />
+      
+      <img
+      class="overlay-image"
+      src='https://raw.githubusercontent.com/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png'
+      width="50px"
+        height="50px"/>
+       
+</div>
+
 <div class="side">
-      <p>
+
+      <p class="content">
         This is not a real online service! You know you need something like this
         in your life to help you realize your deepest dreams.
       </p>
-      <p>Sign up <em>now</em> to get started.</p>
+      <p class="signUp">Sign up <em>now</em> to get started.</p>
 
-      <p>You <em>know</em> you want to.</p>
+      <p class="more" >You <em>know</em> you want to.</p>
 
       <div>
         <form >
+          <div class="formContent">
           <h3>Let's do this!</h3>
           <div class="input">
           <div class="left">
-          <div>
+          <div class="inputField">
             <label for="first_name">FIRST NAME</label><br>
             <input type="text" id="first_name" name="first_name">
           </div>
 
-           <div>
+           <div class="inputField">
             <label for="user_email">EMAIL</label><br>
             <input type="text" id="user_email" . >
           </div>
 
-           <div>
+           <div class="inputField">
             <label for="user_password">PASSWORD</label><br>
             <input type="password" id="user_password">
           </div>
           </div>
 
           <div class="right">
-          <div>
+          <div class="inputField">
             <label for="last_name">LAST NAME</label><br>
             <input type="text" id="last_name" name="last_name">
           </div>        
 
-          <div>
+          <div class="inputField">
             <label for="phone_number">PHONE NUMBER</label><br>
             <input type="number" id="phone_number">
           
-          <div>
+          <div class="inputField">
             <label for="user_password">CONFIRM PASSWORD</label><br>
             <input type="password" id="user_password">
+          </div>
           </div>
           </div>
           </div>
@@ -64,7 +78,7 @@
         </form>
       </div>
       <button type="submit">Create Account</button>
-      <p>Already have an account? Log in</p>
+      <p class="logIn">Already have an account? <a href="#" class="link">Log in</a></p>
       </p>
     </section>
   </body>
